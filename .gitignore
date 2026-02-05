@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# Data files
+data/input/*.xlsx
+data/input/*.csv
+data/output/*.html
+data/output/*.csv
+
+# Azure Functions
+azure_function/.python_packages/
+azure_function/.venv/
+azure_function/local.settings.json
+azure_function/.funcignore
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+temp/
+
+# Node.js
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+
+# Zone identifiers (Windows)
+*:Zone.Identifier
